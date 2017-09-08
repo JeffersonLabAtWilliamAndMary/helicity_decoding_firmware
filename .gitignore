@@ -22,7 +22,7 @@
 *.sopc_builder
 *.summary
 *.tcl
-*.txt # Explicitly add any text files used
+*.txt
 *~
 *example*
 *sopc_*
@@ -30,6 +30,7 @@
 
 # ignore Quartus II generated folders
 db/
+output_files/
 incremental_db/
 simulation/
 timing/
